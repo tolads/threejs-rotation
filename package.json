@@ -1,0 +1,9 @@
+{
+  "name": "threejs-test",
+  "private": true,
+  "description": "Three.js test in JavaScript",
+  "author": "Tamas Laszlo",
+  "dependencies": {
+    "harp": "^0.25.0"
+  }
+}

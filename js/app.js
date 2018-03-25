@@ -29,13 +29,13 @@ var folder = '/kfc/'
 var mtlLoader = new THREE.MTLLoader();
 mtlLoader.setTexturePath(folder);
 mtlLoader.setPath(folder);
-mtlLoader.load( 'KFC Bucket.mtl', function( materials ) {
+mtlLoader.load( 'KFCBucket.mtl', function( materials ) {
     materials.preload();
 
     var objLoader = new THREE.OBJLoader();
     objLoader.setMaterials( materials );
     objLoader.setPath(folder );
-    objLoader.load( 'KFC Bucket.obj', function ( object ) {
+    objLoader.load( 'KFCBucket.obj', function ( object ) {
         obj = object;
         obj.position.y = -3.5;
         scene.add( obj );

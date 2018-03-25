@@ -25,7 +25,7 @@ scene.add(backLight);
 
 // Load object
 var obj;
-var folder = '/kfc/'
+var folder = '../kfc/'
 var mtlLoader = new THREE.MTLLoader();
 mtlLoader.setTexturePath(folder);
 mtlLoader.setPath(folder);
